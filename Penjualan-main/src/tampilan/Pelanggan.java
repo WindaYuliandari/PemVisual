@@ -9,10 +9,7 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.event.KeyEvent;
 import koneksi.koneksi;
 
-/**
- *
- * @author sheilajavana
- */
+
 public class Pelanggan extends javax.swing.JFrame {
     private Connection conn = new koneksi().connect();
     private DefaultTableModel tabmode;
