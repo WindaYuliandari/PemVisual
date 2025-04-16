@@ -9,10 +9,6 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.event.KeyEvent;
 import koneksi.koneksi;
 
-/**
- *
- * @author sheila
- */
 public class Kasir extends javax.swing.JFrame {
     private Connection conn = new koneksi().connect();
     private DefaultTableModel tabmode;
